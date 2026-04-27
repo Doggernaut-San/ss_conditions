@@ -533,7 +533,6 @@ var __BLOCKEDSITES__ = [
   "*.zomro.com"
 ];
 
-
 var proxy;
 var direct;
 
@@ -542,7 +541,7 @@ if (typeof __PROXY__ === "undefined") {
     direct = "DIRECT";
 } else {
     proxy = __PROXY__;
-    direct = "DIRECT;";
+    direct = "DIRECT";
 }
 
 var FindProxyForURL = function(init, profiles) {
@@ -552,7 +551,8 @@ var FindProxyForURL = function(init, profiles) {
         do {
             result = profiles[result];
             if (typeof result === "function") result = result(url, host, scheme);
-        } while (typeof result !== "string" || result.charCodeAt(0) === 43);
+           }
+        while (typeof result !== "string" || (result.length > 0 && result[0] === '+'));
         return result;
     };
 }("+auto switch", {
@@ -567,7 +567,7 @@ var FindProxyForURL = function(init, profiles) {
     },
     "+proxy": function(url, host, scheme) {
         "use strict";
-        if (/^127\.0\.0\.1$/.test(host) || /^::1$/.test(host) || /^localhost$/.test(host) || /^192\.168\.[0-9]{1-3}\.[0-9]{1-3}$/.test(host)) {
+        if (/^127\.0\.0\.1$/.test(host) || /^::1$/.test(host) || /^localhost$/.test(host) || /^192\.168\.[0-9]{1,3}\.[0-9]{1,3}$/.test(host)) {
             return direct;
         }
         return proxy;
