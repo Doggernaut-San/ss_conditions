@@ -71,6 +71,7 @@ var __BLOCKEDSITES__ = [
   "*.canva.com",
   "*.carousell.sg",
   "*.cdninstagram.com",
+  "*.redgifs.com",
   "*.censortracker.org",
   "*.centre-t.com",
   "*.ceskatelevize.cz",
