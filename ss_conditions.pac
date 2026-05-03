@@ -19,6 +19,7 @@ var __BLOCKEDSITES__ = [
   "*.adguard-vpn.com",
   "*.adobe.com",
   "*.afp.com",
+  "*.e-hentai.org",
   "*.afpforum.com",
   "*.agenceurope.eu",
   "*.agents.media",
