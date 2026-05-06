@@ -8,6 +8,7 @@ var __BLOCKEDSITES__ = [
   "*.10minutemail.net",
   "*.15min.lt",
   "*.1lordserials.info",
+  "*.screenscraper.fr",
   "*.24chasa.bg",
   "*.3dyuriki.com",
   "*.444.hu",
