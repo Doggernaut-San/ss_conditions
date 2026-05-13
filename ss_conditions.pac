@@ -4,6 +4,8 @@ var __BLOCKEDSITES__ = [
 "*.linkedin.com",
 "*.skraper.net",
 "*.simpcity.cr",
+"*.turbo.cr",
+"*.cuckcapital.cr",
 "*.10minutemail.com",
 "*.10minutemail.net",
 "*.15min.lt",
