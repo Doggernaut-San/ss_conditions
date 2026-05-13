@@ -11,6 +11,7 @@ var __BLOCKEDSITES__ = [
 "*.15min.lt",
 "*.1lordserials.info",
 "*.screenscraper.fr",
+"*.jpg6.su",
 "*.4pda.ru",
 "*.activatica.org",
 "*.ad.nl",
