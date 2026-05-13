@@ -400,7 +400,7 @@ var __BLOCKEDSITES__ = [
 "*.ytimg.com",
 "*.zeflix.online",
 "*.z-library.sk",
-"*.zomro.com",
+"*.zomro.com"
 ];
 
 var proxy;
