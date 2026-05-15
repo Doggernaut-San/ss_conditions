@@ -1,5 +1,6 @@
 var __BLOCKEDSITES__ = [
 "*.curseforge.com",
+"*.toon-tone.com",
 "*.psxdatacenter.com",
 "*.linkedin.com",
 "*.skraper.net",
