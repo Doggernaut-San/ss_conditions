@@ -6,6 +6,7 @@ var __BLOCKEDSITES__ = [
 "*.psxdatacenter.com",
 "*.linkedin.com",
 "*.skraper.net",
+"*.steamdb.info",
 "*.simpcity.cr",
 "*.simpcity.cr",
 "*.turbo.cr",
