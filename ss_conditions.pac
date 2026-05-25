@@ -34,6 +34,7 @@ var __BLOCKEDSITES__ = [
 "*.amedia.vip",
 "*.amnezia.org",
 "aws.amazon.com",
+"*.mitaku.net",
 "*.amazonaws.com",
 "*.annas-archive.gs",
 "*.annas-archive.org",
