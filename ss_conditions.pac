@@ -9,7 +9,7 @@ var __BLOCKEDSITES__ = [
 "*.steamdb.info",
 "*.simpcity.cr",
 "*.simpcity.cr",
-"*.copernicus.eu",
+"*.csnades.gg",
 "*.turbo.cr",
 "*.cuckcapital.cr",
 "*.10minutemail.com",
